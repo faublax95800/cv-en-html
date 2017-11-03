@@ -1,0 +1,137 @@
+body{
+  font-family:'Century Gothic', Calibri, serfif;
+  font-size: 13px;
+  margin: 0px;
+  padding: 0px;
+
+}
+
+h1{
+  font-size: 40px;
+  font-weight: normal;
+  text-align: center;
+}
+
+header{
+  height: 100px;
+}
+
+footer{
+  height: 80xp;
+  padding-top: 30px;
+  text-align: center;
+  background-color: #C5C5C5;
+  border-top: 2px solid #AAA;
+}
+
+nav{
+width: 100%;
+background-color:#424558;
+}
+
+nav ul{
+  margin: 0px;
+  padding: 0px;
+
+}
+
+nav li {
+  list-style-type: none;
+  float: left;
+
+}
+
+nav a{
+  display: inline-block;
+  text-decoration: none;
+  padding: 20px 30px;
+  color: #FFF;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+
+.table {
+  display: table;
+  margin: 0 auto;
+}
+
+.menu-ind:hover, .presentation{
+  border-top: 5px solid #4C8;
+  background-color:  rgba(64, 200, 130, 0.15);
+}
+
+.menu-exp:hover, .parcours{
+  border-top: 5px solid   #e81d26;
+  background-color: rgba(241, 211, 79, 0.15);
+}
+
+.menu-hob:hover, .competences{
+  border-top: 5px solid #29c9f5 ;
+  background-color: rgba(176, 230, 244, 0.15);
+}
+
+.menu-hob:hover, {
+  border-top: 5px solid  #29c9f5;
+  background-color: rgba(176, 230, 244, 0.15);
+}
+
+.menu-con:hover{
+  border-top: 5px solid  #dbd220;
+  background-color: rgba( 233, 228, 125 , 0.15);
+}
+
+nav li:hover a{
+  padding: 15px 30px 20px 30px;
+}
+
+section {
+  width: 100%;
+  min-height:300px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+.sec{
+  margin: 0px 10px;
+}
+
+.left{
+  float: left;
+  width: 30%;
+
+}
+
+.right{
+  float: left;
+  width: 70%;
+}
+
+.cleft, .crigth, .sousleft, .sousright{
+  width: 50%;
+  float: left;
+
+}
+
+.sec::after, .exp::after{
+  content: "";
+  display: table;
+  clear:
+}
+
+@media SCREEN and (max-width: 700px){
+  header{
+  height:50px;
+  }
+  h1{
+    font-size: 28px;
+    margin: 20px 0px 0px;
+    }
+    nav li a{
+      font-size: 12px;
+      padding:10px;
+
+    }
+    nav li:hover a{
+      padding: 10px 10px 10px;
+    }
+}
